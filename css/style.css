@@ -1,0 +1,490 @@
+/* header =============================== */
+
+header {
+    padding: 20px 0;
+}
+
+header .header-search {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 600px;
+    flex: 0 0 600px;
+}
+
+header .header-search .input-group {
+    padding: 0 15px 0 25px;
+}
+
+header .header-search .input-group .btn {
+    padding: 10px;
+    border: 0;
+    min-width: auto;
+    font-size: 25px;
+}
+
+header .header-account-info-wrapper .notification {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+header .header-account-info-wrapper .notification-indicator {
+    background-color: #707070;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    top: 0;
+    right: 10px;
+    font-size: 12px;
+}
+
+header .header-account-info-wrapper .account-info {
+    background-color: #E9F0F4;
+    padding: 5px 15px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 281px;
+    flex: 0 0 281px;
+}
+
+header .header-account-info-wrapper .account-info .user-pic {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px;
+}
+
+header .header-account-info-wrapper .account-info .user-pic img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+header .header-account-info-wrapper .account-info .user-name {
+    font-size: 21px;
+}
+
+header .header-account-info-wrapper .account-info .btn-dropdown {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 15px;
+    flex: 0 0 15px;
+    height: 15px;
+    display: inline-table;
+    cursor: pointer;
+}
+
+header .header-account-info-wrapper .account-info-menu {
+    top: 100%;
+    z-index: 9;
+    width: 100%;
+    background-color: #F3F3F3;
+    left: 0;
+    display: none;
+}
+
+header .header-account-info-wrapper .account-info-menu a:hover {
+    background-color: #749F65;
+    color: #ffffff;
+}
+
+
+/* layout-wrapper============= */
+
+.layout-wrapper {
+    margin-top: 102px;
+    height: 100vh;
+    max-height: calc(100vh - 102px);
+}
+
+
+/* left sidear ===================== */
+
+.layout-wrapper .left-sidebar {
+    padding: 35px 0px;
+    font-size: 22px;
+    overflow-y: auto;
+    position: relative;
+    max-height: calc(100vh - 102px);
+}
+
+
+/* side bar menu ---- */
+
+.layout-wrapper .sidebar-menu .custom-tabs .tab {
+    padding: 0;
+}
+
+.layout-wrapper .sidebar-menu .custom-tabs a {
+    color: #A2A2A2;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.layout-wrapper .sidebar-menu .custom-tabs .tab .icon {
+    font-size: 24px;
+    flex: 0 0 44px;
+}
+
+.layout-wrapper .sidebar-menu .custom-tabs a:hover {
+    color: #749F65;
+}
+
+
+/* friend-invite------- */
+
+.left-sidebar .friend-invite ul li {
+    padding: 0px 20px;
+}
+
+.left-sidebar .friend-invite ul li+li {
+    border-left: 1px solid #749F65;
+}
+
+
+/* ================ main-content========================== */
+
+.main-content {
+    padding: 35px 15px;
+    overflow-y: auto;
+    max-height: calc(100vh - 102px);
+}
+
+
+/*=============== Tab dashboard ==============*/
+
+.dashboard-outer .card.card-stats {
+    color: #232323;
+}
+
+.dashboard-outer .card.card-stats .count {
+    font-size: 25px;
+}
+
+.dashboard-outer .card.ongoing-compition {
+    background: #fed9be url(../images/compitionbg.png) no-repeat left top;
+    background-size: cover;
+    padding: 15px 20px;
+    min-height: 240px;
+}
+
+.dashboard-outer .card.ongoing-compition .reg-date {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.dashboard-outer .card.card-ranking .card-row+.card-row {
+    border-top: 1px solid #E0EADD;
+}
+
+.dashboard-outer .card.card-ranking .card-row .card-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.dashboard-outer .card.card-ranking .card-row .sl-no {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60px;
+    flex: 0 0 60px;
+    max-width: 60px;
+    font-size: 14px;
+    border-right: 1px solid #E0EADD;
+}
+
+.dashboard-outer .card.card-ranking .card-row .student-col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(100% - 60px);
+    flex: 0 0 calc(100% - 60px);
+}
+
+.dashboard-outer .card.card-ranking .card-row .student-col .student-details .student-img img {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+}
+
+.dashboard-outer .card.card-ranking .card-row .student-col .student-details .student-name {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.dashboard-outer .card.card-ranking .card-row .student-col .rank-info {
+    font-size: 13px;
+}
+
+
+/*=============== Tab Leadership Board ==============*/
+
+.leadership-board-outer .leadership-card .student-deatails .student-img {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 90px;
+    flex: 0 0 90px;
+}
+
+.leadership-board-outer .leadership-card .student-deatails .student-img img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    border: 1px solid #7d7d7e;
+}
+
+.leadership-board-outer .leadership-card .student-deatails .student-img .medal {
+    top: -10px;
+    right: -10px;
+    border: 0;
+    width: auto;
+    height: auto;
+}
+
+.leadership-board-outer .leadership-card .student-deatails .student-info ul li+li {
+    margin-left: 30px;
+}
+
+.classes-outer .form-wrapper {
+    border-radius: 15px;
+}
+
+
+/*  =====================================
+                  media queries
+    ======================================= */
+
+@media(max-width:1399px) {
+    /* left sidebar -------------- */
+    .layout-wrapper .left-sidebar {
+        padding: 25px 0;
+        font-size: 18px;
+    }
+    header .header-search {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 400px;
+        flex: 0 0 400px;
+    }
+    header .header-search .input-group {
+        padding: 0 10px;
+    }
+    header .header-search .input-group .btn {
+        padding: 0 10px;
+    }
+    header .header-account-info-wrapper .account-info {
+        padding: 5px 15px;
+    }
+    header .header-account-info-wrapper .account-info .user-name {
+        font-size: 18px;
+    }
+    header .header-account-info-wrapper .account-info .user-pic img {
+        width: 35px;
+        height: 35px;
+    }
+    /* ================ main-content========================== */
+    .main-content {
+        padding: 25px 15px;
+    }
+    /* dashboard ====== */
+    .dashboard-outer .card.card-stats .count {
+        font-size: 22px;
+    }
+    .layout-wrapper {
+        margin-top: 90px;
+    }
+    .layout-wrapper .left-sidebar,
+    .main-content {
+        max-height: calc(100vh - 90px);
+    }
+    header .logo {
+        max-width: 190px;
+    }
+}
+
+
+/* ********************************* */
+
+@media(max-width:1199px) {
+    header .header-search {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 300px;
+        flex: 0 0 300px;
+    }
+}
+
+
+/* ******************************* */
+
+@media(max-width:991px) {
+    .layout-wrapper .left-sidebar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 0;
+        -webkit-transition: all 300ms ease-in;
+        -o-transition: all 300ms ease-in;
+        transition: all 300ms ease-in;
+    }
+    .layout-wrapper .left-sidebar.active {
+        left: 0%;
+    }
+    .layout-wrapper .left-sidebar .sidebar-content {
+        padding: 75px 20px 15px;
+        max-width: 575px;
+    }
+    .header-account-info-wrapper .account-info {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 250px;
+        flex: 0 0 250px;
+    }
+    header .header-account-info-wrapper .account-info {
+        flex: 0 0 225px;
+    }
+    header .header-search {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        padding: 20px 15px;
+        max-width: 100%;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        transition: all 300ms ease-in;
+    }
+    header .header-search.active {
+        top: 0;
+    }
+    header .header-search .input-group {
+        max-width: calc(100% - 40px);
+    }
+    .btn-search-open,
+    .btn-search-close {
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .layout-wrapper .left-sidebar {
+        height: 100vh;
+        max-height: 100vh;
+    }
+    .main-content {
+        height: auto;
+        max-height: none;
+    }
+}
+
+@media(max-width:767px) {
+    .leadership-board-outer .leadership-card .student-deatails .student-info ul li+li {
+        margin-left: 0;
+    }
+    .leadership-card-list .leadership-card .profile-link {
+        font-size: 12px;
+    }
+    header {
+        padding: 10px 0;
+    }
+    header .header-main {
+        margin-top: 5px;
+    }
+}
+
+@media(max-width:479px) {
+    .header-account-info-wrapper .notification {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 34px;
+        flex: 0 0 34px;
+    }
+    .header-account-info-wrapper .notification-indicator {
+        right: 0;
+    }
+    .main-content {
+        padding: 25px 15px;
+    }
+    .header-account-info-wrapper .account-info {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 200px;
+        flex: 0 0 200px;
+    }
+    .header-account-info-wrapper .account-info .user-name {
+        font-size: 16px;
+    }
+    .header-account-info-wrapper .account-info .user-pic {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25px;
+        flex: 0 0 25px;
+    }
+    .header-account-info-wrapper .account-info .user-pic img {
+        height: 25px;
+        width: 25px;
+    }
+    /* dashbaord ------ */
+    .dashboard-outer .card.ongoing-compition .bottom {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .dashboard-outer .card.ongoing-compition .bottom .btn {
+        font-size: 14px;
+    }
+    .dashboard-outer .card.card-ranking .card-row .card-col {
+        padding: 5px;
+    }
+    .dashboard-outer .card.card-ranking .card-row .sl-no {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 30px;
+        flex: 0 0 30px;
+    }
+    .dashboard-outer .card.card-ranking .card-row .student-col {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .dashboard-outer .card.card-ranking .card-row .card-col .student-details {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .dashboard-outer .card.card-ranking .card-row .student-col .rank-info {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+    .dashboard-outer .card.ongoing-compition .reg-date {
+        margin-top: 10px;
+    }
+    /* leadership  */
+    .leadership-card-list .leadership-card {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .leadership-board-outer .leadership-card .student-deatails .student-info ul li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        font-size: 14px;
+    }
+    .dashboard-outer .card.card-ranking .card-row .student-col .student-details .student-name {
+        font-size: 16px;
+    }
+    .leadership-card-list .leadership-card .profile-link {
+        margin-top: 5px;
+    }
+    header .header-account-info-wrapper .account-info {
+        flex: 0 0 200px;
+        padding: 5px;
+    }
+    .layout-wrapper {
+        margin-top: 108px;
+    }
+}

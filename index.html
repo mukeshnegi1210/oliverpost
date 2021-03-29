@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Company Name">
+  <meta name="keywords" content="Company Name">
+  <meta name="author" content="Company Name">
+  <meta name="expires" content="never">
+  <meta name="rating" content="general">
+  <meta name="copyright" content="Company Name">
+  <title>Oliver Posts</title>
+
+  <!-- favicon  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Oliver Posts" />
+  <meta property="og:type" content="website" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/fontawesome.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/global.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- header  -->
+  <header class="fixed-top bg-white shadow">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-5 col-lg-3 d-flex d-md-block align-items-center justify-content-between">
+          <!-- logo  -->
+          <div class="logo"><a href="#"><img src="images/logo.svg" alt="owliver post"></a></div>
+          <!-- logo end  -->
+          <span class="btn-menu-open fa fa-bars text-success d-inline-block d-lg-none ml-3"></span>
+        </div>
+        <div class="col-md-7 col-lg-9">
+          <!-- header main  -->
+          <div class="header-main d-flex align-items-center flex-wrap">
+
+
+            <!-- header search  -->
+            <div class="header-search mt-2  mt-md-0 bg-white">
+              <div class="input-group 0 border rounded bg-light-2">
+                <input type="text" class="form-control bg-light-2 border-0 rounded-0 p-0" placeholder="Search">
+                <div class="input-group-append">
+                  <button class="btn" type="submit"> <span class="fa fa-search text-success"></span></button>
+                </div>
+              </div>
+              <!-- btn search close /mobile -->
+              <span class="btn-search-close fa fa-times text-success d-inline-block d-lg-none ml-3"></span>
+            </div>
+            <!-- header search  end-->
+
+            <!-- header account info  -->
+            <div class="header-account-info-wrapper ml-auto d-flex align-items-center justify-content-end">
+
+              <!-- mobile btn search open -->
+              <span class="btn-search-open fa fa-search text-success d-inline-block d-lg-none mr-3"></span>
+
+              <!-- notifcation -->
+              <div class="notification mx-2 mx-lg-4 position-relative">
+                <span class="fas fa-bell text-success"></span>
+                <span class="notification-indicator position-absolute text-white">
+                  5
+                </span>
+              </div>
+              <!-- notifcation -->
+
+              <!-- account info  -->
+              <div class="account-info flex-nowrap d-flex align-items-center  position-relative rounded">
+                <div class="user-pic position-relative">
+                  <img src="images/avatar-svgrepo-com.svg" alt="profile pic" class="rounded-circle">
+                  <span class="online-status position-absolute"></span>
+                </div>
+                <p class="mb-0 user-name text-success text-nowrap ml-2 ml-lg-3">Anna John</p>
+                <span class="btn-dropdown ml-auto">
+                  <span class="fas fa-angle-down fs-19 text-success "></span>
+
+                </span>
+                <ul class="account-info-menu position-absolute bg-light-2 rounded-bottom shadow-sm py-2">
+                  <li><a href="#" class="d-block py-1 px-2">item 1</a></li>
+                  <li><a href="#" class="d-block py-1 px-2">item 2</a></li>
+                  <li><a href="#" class="d-block py-1 px-2">item 3</a></li>
+                </ul>
+              </div>
+              <!-- account info  -->
+            </div>
+          </div>
+          <!-- header main end  -->
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header  -->
+
+  <div class="layout-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+          <!-- left sidebar  -->
+          <div class="left-sidebar ">
+            <div class="sidebar-content bg-white d-lg-flex flex-column border-right position-relative">
+
+              <!-- menu close button  -->
+              <span class="btn-menu-close fa fa-times text-success position-absolute d-inline-block d-lg-none"></span>
+
+
+              <!-- side bar menu  -->
+              <div class="sidebar-menu">
+                <!-- Nav tabs -->
+                <ul class="custom-tabs">
+                  <li class="tab active" data-tabtarget="#TabContentDashboard">
+                    <a href="#"> <span class="icon"><i class="fas fa-th-large"></i> </span>
+                      Dashboard</a>
+                  </li>
+
+                  <li class="tab" data-tabtarget="#TabContentClasses">
+                    <a href="#">
+                      <span class="icon"> <i class="fas fa-graduation-cap fa-flip-horizontal"></i></span>
+                      Classes
+                    </a>
+
+                  </li>
+
+                  <li class="tab" data-tabtarget="#TabContentPoinstatement">
+                    <a href="#"> <span class="icon"><i class="fas fa-user-check"></i></span>
+                      Point Statement</a>
+                  </li>
+
+                  <li class="tab" data-tabtarget="#TabContentNotes">
+                    <a href="#"> <span class="icon"><i class="fas fa-book-reader"></i></span>
+                      Send Note</a>
+                  </li>
+                  <li class="tab" data-tabtarget="#TabContentLeadershipBoard">
+                    <a href="#"> <span class="icon"><i class="fas fa-crown"></i> </span>
+                      Leadership Board</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- sidebar menu ends  -->
+
+              <!-- friend Invite -->
+              <div class="friend-invite text-center mt-auto pt-5">
+                <img src="images/refer.svg" alt="refer">
+                <h4 class="font-weight-normal text-dark my-4">Invite Friends?</h4>
+                <ul class="d-inline-flex align-items-center justify-content-center px-3 py-2  bg-success">
+                  <li><a href="#" class="custom-tooltip">
+                      <span class="tooltiptext tooltip-top"> Refer via WhatsApp</span>
+                      <span class="fab text-success fa-whatsapp"></span></a></li>
+                  <li><a href="#" class="custom-tooltip">
+                      <span class="tooltiptext tooltip-top">Copy Invite Code</span>
+                      <span class="far fa-copy text-success"></span></a></li>
+                </ul>
+
+              </div>
+            </div>
+            <!-- friend Invite Ends-->
+
+          </div>
+        </div>
+
+
+        <!-- ================== right panel ==================== -->
+        <div class="col-lg-9">
+          <div class="main-content">
+            <!-- Tab Content Main  -->
+            <!-- Tab panes -->
+            <div class="custom-tab-content">
+              <!-- Dashboard  -->
+              <div class="tab-pane active" id="TabContentDashboard">
+                <div class="dashboard-outer">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <!-- stats card  -->
+                      <div class="card card-stats mb-4 rounded bg-white shadow-sm border-0">
+                        <div class="card-body py-3 px-0 text-center">
+                          <h5 class="card-title bg-success text-success font-weight-medium p-2">John Doe</h5>
+                          <div class="body-inner px-2">
+                            <div class="coin-img mb-1">
+                              <img src="images/coin.svg" alt="coins">
+                            </div>
+                            <p class="count font-weight-medium mb-2">3000</p>
+                            <p class="card-text">Some example text.</p>
+                            <a href="#" class="btn btn-success">Redeem</a>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- stats card  -->
+
+
+                      <!-- stats card  -->
+
+                      <div class="card card-stats mb-4 rounded bg-white shadow-sm border-0">
+                        <div class="card-body py-3 px-0 text-center">
+                          <h5 class="card-title bg-success text-success font-weight-medium p-2">Total Students</h5>
+                          <div class="body-inner  px-2">
+                            <p class="count font-weight-medium mb-2">235</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- stats card  -->
+
+                      <!-- stats card  -->
+                      <div class="card card-stats mb-4 rounded bg-white shadow-sm border-0">
+                        <div class="card-body py-3 px-0 text-center">
+                          <h5 class="card-title bg-success text-success font-weight-medium p-2">John Doe</h5>
+                          <div class="body-inner px-2">
+                            <p class="count font-weight-medium mb-0">50</p>
+                            <p class="text-warning mb-0">+ 10% to previous month</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- stats card  -->
+                    </div>
+
+                    <div class="col-md-8">
+                      <!-- on going compitition  -->
+                      <div class="card ongoing-compition text-white mb-4 border-0 rounded shadow-sm d-flex flex-column">
+                        <div class="top d-flex align-items-center justify-content-between mb-2">
+                          <p class="mb-0 font-weight-medium">Ongoing Competition</p>
+                          <p class="mb-0 text-dark-green">59 Participants</p>
+                        </div>
+                        <div class="compition-details">
+                          <p class="font-weight-medium text-uppercase mb-0">Holi</p>
+                          <p> Theme of this month's free competition</p>
+                        </div>
+                        <div class="bottom mt-auto d-flex align-items-end justify-content-between">
+                          <div class="action">
+                            <a href="#" class="btn btn-success my-1">
+                              <span class="fab fa-whatsapp text-white mr-2"></span>
+                              Refer via WhatsApp</a>
+                            <a href="#" class="btn btn-success">
+                              <span class="fas fa-link text-white mr-2"></span>
+                              Copy Referral Link</a>
+                          </div>
+                          <div class="reg-date text-dark-green text-right">
+                            <p class="mb-0">Last Date for Registration: <span
+                                class="d-inline-block ml-2">25/03/2021</span></p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- on going compitition  -->
+
+                      <div class="card card-ranking mb-4 rounded bg-white shadow-sm border-0 overflow-hidden">
+                        <div class="card-body p-0 ">
+                          <h5 class="card-title bg-success text-success mb-0 font-weight-medium p-2">Ranker Students
+                          </h5>
+                          <div class="body-inner">
+                            <!-- card row -->
+                            <div class="card-row d-flex ">
+                              <div class="card-col sl-no">
+                                1.
+                              </div>
+                              <div class="card-col student-col d-flex">
+                                <div class="student-details d-flex align-items-center">
+                                  <div class="student-img">
+                                    <img src="images/avatar-svgrepo-com.svg" alt="">
+                                  </div>
+                                  <div class="student-info ml-3">
+                                    <p class="mb-0 student-name font-weight-medium text-dark mb-0">Jhon Fernandez</p>
+                                    <p class="mb-0 batch-info  mb-0">Batch : 10:00 - 12:00 </p>
+                                  </div>
+                                </div>
+                                <span class="rank-info text-success bg-success ml-auto py-1 px-3 rounded">2051</span>
+                              </div>
+                            </div>
+                            <!-- card row -->
+
+                            <!-- card row -->
+                            <div class="card-row d-flex">
+                              <div class="card-col sl-no">
+                                2.
+                              </div>
+                              <div class="card-col student-col d-flex align-items-center">
+                                <div class="student-details d-flex align-items-center">
+                                  <div class="student-img">
+                                    <img src="images/avatar-svgrepo-com.svg" alt="">
+                                  </div>
+                                  <div class="student-info ml-3">
+                                    <p class="mb-0 student-name font-weight-medium text-dark">Jhon Fernandez</p>
+                                    <p class="mb-0 batch-info">Batch : 10:00 - 12:00 </p>
+                                  </div>
+                                </div>
+                                <span class="rank-info text-success bg-success ml-auto py-1 px-3 rounded">2051</span>
+                              </div>
+                            </div>
+                            <!-- card row -->
+
+                            <!-- card row -->
+                            <div class="card-row d-flex">
+                              <div class="card-col sl-no">
+                                3.
+                              </div>
+                              <div class="card-col student-col d-flex align-items-center">
+                                <div class="student-details d-flex align-items-center">
+                                  <div class="student-img">
+                                    <img src="images/avatar-svgrepo-com.svg" alt="">
+                                  </div>
+                                  <div class="student-info ml-3">
+                                    <p class="mb-0 student-name font-weight-medium text-dark">Jhon Fernandez</p>
+                                    <p class="mb-0 batch-info">Batch : 10:00 - 12:00 </p>
+                                  </div>
+                                </div>
+                                <span class="rank-info text-success bg-success ml-auto py-1 px-3 rounded">2051</span>
+                              </div>
+                            </div>
+                            <!-- card row -->
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+              <!-- tab classes ========= -->
+              <div class="tab-pane" id="TabContentClasses">
+                <div class="classes-outer">
+                  <div class="tab-header">
+                    <h2 class="text-dark">Submit A Form</h2>
+                    <p>Welcome Jessica Deo!</p>
+                  </div>
+                  <div class="form-wrapper p-3 shadow  bg-white">
+                    <form action="#">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="form-group">
+                            <h4 class="text-dark font-weight-normal mb-2">Name</h4>
+                            <input type="text" class="form-control" placeholder="Name">
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-group">
+                            <h4 class="text-dark font-weight-normal mb-2">Email</h4>
+                            <input type="email" class="form-control" placeholder="Email Address">
+                          </div>
+                        </div>
+                        <div class="col-6">
+                          <div class="form-group">
+                            <h4 class="text-dark font-weight-normal mb-2">City</h4>
+                            <select class="form-control">
+                              <option value="0">City</option>
+                              <option value="1">City</option>
+                              <option value="2">City</option>
+                              <option value="3">City</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-group">
+                            <h4 class="text-dark font-weight-normal mb-2">Sex</h4>
+                            <div class="custom-control custom-radio custom-control-inline mr-5">
+                              <input type="radio" class="custom-control-input" id="male" name="gender" value="Male">
+                              <label class="custom-control-label" for="male">Male</label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                              <input type="radio" class="custom-control-input" id="female" name="gender" value="Female">
+                              <label class="custom-control-label" for="female">Female</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-group">
+                            <h4 class="text-dark font-weight-normal mb-2">Available Channels</h4>
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="webchatcheck" checked>
+                              <label class="custom-control-label" for="webchatcheck">Web Chat</label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="smscheck">
+                              <label class="custom-control-label" for="smscheck">SMS</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 action mt-5">
+                          <button type="reset" class="btn btn-success mr-3">Reset</button>
+                          <button type="submit" class="btn btn-transparent text-success">Submit</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <!-- tab pointstatement =========================== -->
+
+              <div class="tab-pane" id="TabContentPoinstatement">
+                <div class="pointstatement-outer">
+                  <div class="tab-header">
+                    <h2 class="text-dark"> Point Statement</h2>
+                    <p>Welcome Jessica Deo!</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- notes ==================== -->
+              <div class="tab-pane" id="TabContentNotes">
+                <div class="notes-outer"></div>
+                <div class="tab-header">
+                  <h2 class="text-dark">Content Notes</h2>
+                  <p>Welcome Jessica Deo!</p>
+                </div>
+              </div>
+
+
+              <!-- Leader Ship Board ================== -->
+
+              <div class="tab-pane" id="TabContentLeadershipBoard">
+                <div class="leadership-board-outer">
+                  <div class="tab-header">
+                    <h2 class="text-dark">Leadership Board</h2>
+                    <p>Welcome Jessica Deo!</p>
+                  </div>
+
+                  <!-- card list  -->
+                  <div class="leadership-card-list">
+                    <!-- leadership card  -->
+                    <div
+                      class="leadership-card bg-light rounded p-3 mb-4 d-flex justify-content-between align-items-center">
+                      <div class="student-deatails d-flex align-items-center">
+                        <div class="student-img position-relative mr-4">
+                          <img src="images/avatar-svgrepo-com.svg" alt="student photo">
+                          <img src="images/medal-1.svg" alt="" class="medal position-absolute">
+                        </div>
+                        <div class="student-info ">
+                          <h4 class="text-dark font-spartan mb-0">Jhon Fernandez</h4>
+                          <ul class="d-flex  flex-wrap mb-0">
+                            <li><span class="d-block">Invite Sent: 07</span>
+                              <span class="d-block">Number Of Classes: 25</span>
+                            </li>
+                            <li>
+                              <span class="d-block">Post Sent: 02</span>
+                              <span class="d-block">Article Sent: 55</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <a href="#" class="profile-link text-center text-warning bg-white border p-2">View Profile</a>
+                    </div>
+                    <!-- leadership card  -->
+
+                    <div
+                      class="leadership-card bg-light rounded p-3 mb-4 d-flex justify-content-between align-items-center">
+                      <div class="student-deatails d-flex align-items-center">
+                        <div class="student-img position-relative mr-4">
+                          <img src="images/avatar-svgrepo-com.svg" alt="student photo">
+                          <img src="images/medal-2.svg" alt="" class="medal position-absolute">
+                        </div>
+                        <div class="student-info ">
+                          <h4 class="text-dark font-spartan mb-0">Jhon Fernandez</h4>
+                          <ul class="d-flex  flex-wrap mb-0">
+                            <li><span class="d-block">Invite Sent: 07</span>
+                              <span class="d-block">Number Of Classes: 25</span>
+                            </li>
+                            <li>
+                              <span class="d-block">Post Sent: 02</span>
+                              <span class="d-block">Article Sent: 55</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <a href="#" class="profile-link text-center text-warning bg-white border p-2">View Profile</a>
+                    </div>
+                    <!-- leadership card  -->
+                    <div
+                      class="leadership-card bg-light rounded p-3 mb-4 d-flex justify-content-between align-items-center">
+                      <div class="student-deatails d-flex align-items-center">
+                        <div class="student-img position-relative mr-4">
+                          <img src="images/avatar-svgrepo-com.svg" alt="student photo">
+                        </div>
+                        <div class="student-info ">
+                          <h4 class="text-dark font-spartan mb-0">Jhon Fernandez</h4>
+                          <ul class="d-flex  flex-wrap mb-0">
+                            <li><span class="d-block">Invite Sent: 07</span>
+                              <span class="d-block">Number Of Classes: 25</span>
+                            </li>
+                            <li>
+                              <span class="d-block">Post Sent: 02</span>
+                              <span class="d-block">Article Sent: 55</span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <a href="#" class="profile-link  text-center text-warning bg-white border p-2">View Profile</a>
+                    </div>
+                    <!-- leadership card  -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- tab Conent form-wrapper ens  -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/fontawesome.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,542 @@
+/*==================== fonts ======================= */
+
+
+/*------------ google fonts --------- */
+
+
+/* Spartan*/
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap');
+
+/* roboto */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    color: #A2A2A2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+
+/* 
+*,
+*:focus {
+    outline: none !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+} */
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: #000000;
+    outline: none !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover {
+    color: #000;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*****************************/
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+    font-weight: 700;
+}
+
+h1,
+.h1 {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+h2,
+.h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h4,
+.h4 {
+    font-size: 22px;
+    line-height: 28px;
+}
+
+h5,
+.h5 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+/* scroll bar =--------= */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #e9f0f4;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #b3b3b3;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #749f68;
+}
+
+
+/******* Helpers ********************************************************************/
+
+
+/* fonts families ------------------------------------ */
+
+.font-spartan {
+    font-family: 'Spartan', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* text colors=== */
+
+.text-success {
+    color: #749F65 !important;
+}
+
+.text-warning {
+    color: #E67719 !important;
+}
+
+.text-dark {
+    color: #414141 !important
+}
+
+.text-grey-2 {
+    color: #868689;
+}
+
+.text-dark-green {
+    color: #606060;
+}
+
+
+/* backgrounds ==== */
+
+.bg-success {
+    background-color: #E0EADD !important;
+}
+
+.bg-light {
+    background-color: #EAEFF8 !important;
+}
+
+.bg-light-2 {
+    background-color: #F3F3F3!important;
+}
+
+.bg-warning {
+    background-color: #f7941d !important;
+}
+
+
+/*************Font Weight****************/
+
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.font-weight-semibold {
+    font-weight: 600 !important;
+}
+
+
+/***************************/
+
+.btn {
+    moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 5px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    min-width: 130px;
+}
+
+.btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-success {
+    background-color: #749F65;
+    border-color: #749F65 !important;
+}
+
+.btn-transparent {
+    background: transparent;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.input-group .btn {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.btn-menu-open {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn-menu-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/*****************************/
+
+.text-dark {
+    color: #272222 !important;
+}
+
+.text-shadow {
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+/*******************************************************************/
+
+.form-control,
+input.form-control,
+input.form-control:focus,
+select.form-control,
+select.form-control:focus {
+    height: calc(2.4em + 0.9rem);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #D1D1D1;
+    color: #0D1C2E;
+    font-size: 20px;
+    outline: none;
+    border-radius: 13px;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    /* font-size: 14px; */
+    resize: none;
+}
+
+textarea.form-control:not([rows]) {
+    height: 140px;
+}
+
+
+/* custom checkbox  */
+
+.custom-control-label {
+    line-height: 1.5;
+}
+
+.custom-control-label::before {
+    border: #CDCDCD solid 1.5px !important;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #749F65 !important;
+    background-color: #749F65;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.custom-control-input:not(:disabled):active~.custom-control-label::before {
+    border-color: #749F65 !important;
+    background-color: #749F65;
+}
+
+.custom-control-input:checked~.custom-control-label {
+    color: #414141;
+}
+
+.custom-control-label::after {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+.custom-control-input:focus~.custom-control-label::before {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/* placeholder color ======== */
+
+.form-control::-webkit-input-placeholder,
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #CDCDCD;
+}
+
+.form-control:-ms-input-placeholder,
+ :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #CDCDCD;
+}
+
+.form-control::-webkit-input-placeholder,
+ ::-webkit-input-placeholder {
+    color: #CDCDCD;
+}
+
+.form-control::-moz-placeholder,
+ ::-moz-placeholder {
+    color: #CDCDCD;
+}
+
+.form-control:-ms-input-placeholder,
+ :-ms-input-placeholder {
+    color: #CDCDCD;
+}
+
+.form-control::-ms-input-placeholder,
+ ::-ms-input-placeholder {
+    color: #CDCDCD;
+}
+
+.form-control::placeholder,
+ ::placeholder {
+    color: #CDCDCD;
+}
+
+.form-control::-moz-placeholder {
+    color: #CDCDCD;
+    opacity: 1;
+}
+
+
+/* Tooltip container */
+
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Tooltip text */
+
+.custom-tooltip .tooltiptext {
+    visibility: hidden;
+    min-width: 120px;
+    background-color: #F0F3F8;
+    color: #6C6C6C;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 1;
+    font-size: 10px;
+}
+
+.tooltip-top {
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip-top::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #F0F3F8 transparent transparent transparent;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.custom-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+/* custom tabs ========================== */
+
+.custom-tabs .tab {
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+}
+
+.custom-tabs .tab.active,
+.custom-tabs .tab:hover,
+.custom-tabs .tab.active a,
+.custom-tabs .tab:hover a {
+    background-color: #E0EADD;
+    color: #749F65;
+}
+
+.custom-tab-content .tab-pane {
+    padding: 0px;
+    -webkit-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
+    transition: all 250ms ease-in;
+    display: none;
+}
+
+.custom-tab-content .tab-pane.active {
+    display: block;
+}
+
+.custom-tab-content .tab-pane .tab-header {
+    margin-bottom: 50px;
+}
+
+.custom-tab-content .tab-pane .tab-header p {
+    font-size: 22px;
+}
+
+
+/* ==================== media queries ============= */
+
+@media(max-width:1399px) {
+    body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h2,
+    .h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    h4,
+    .h4 {
+        font-size: 18px;
+    }
+    h5,
+    .h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .form-control,
+    input.form-control,
+    input.form-control:focus,
+    select.form-control,
+    select.form-control:focus {
+        height: 2.5em;
+        font-size: 16px;
+    }
+    .custom-tab-content .tab-pane .tab-header p {
+        font-size: 18px;
+    }
+}
+
+
+/* ************************* */
+
+
+/* ************************* */
+
+@media(max-width:767px) {
+    body {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    h2,
+    .h2 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    h4,
+    .h4 {
+        font-size: 16px;
+    }
+    .btn {
+        padding: 5px 10px;
+    }
+}
